@@ -4,7 +4,7 @@ Full Flutter UI for Store, feel free to use it
 
 ## Preview
 
-![Preview](https://github.com/MoSala7/Store/assets/preview.png)
+![Preview](https://github.com/MoSala7/Store/blob/master/assets/preview.png)
 
 ## Behance
 
