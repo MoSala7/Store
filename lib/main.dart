@@ -217,7 +217,7 @@ class _ConfirmState extends State<Confirm> {
                   color: Colors.black)),
           Text("+9665555555", style: TextStyle(color: Colors.black45)),
           Padding(
-            padding: const EdgeInsets.only(top:10.0),
+            padding: const EdgeInsets.only(top: 10.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -238,12 +238,12 @@ class _ConfirmState extends State<Confirm> {
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.black),
                 decoration: InputDecoration(
-                   enabledBorder: UnderlineInputBorder(      
-                      borderSide: BorderSide(color: Colors.transparent),   
-                      ),  
-              focusedBorder: UnderlineInputBorder(
+                    enabledBorder: UnderlineInputBorder(
                       borderSide: BorderSide(color: Colors.transparent),
-                   ),  
+                    ),
+                    focusedBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(color: Colors.transparent),
+                    ),
                     hintText: "كود التفعيل",
                     alignLabelWithHint: false),
               )),
@@ -257,10 +257,17 @@ class _ConfirmState extends State<Confirm> {
                     onTap: () {
                       Navigator.popAndPushNamed(context, '/GroceryHomePage');
                     },
-                    child: Text("دخول", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.green))),
+                    child: Text("دخول",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.green))),
                 InkWell(
                     child: Text("اعد ارسال كود التفعيل",
-                        style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.black45))),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.black45))),
               ],
             ),
           ),
